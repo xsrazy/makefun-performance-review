@@ -16,6 +16,10 @@ taking credit in the team meeting. It reads exactly like a real review,
 which is what makes it funny, and it stays fresh because the joke is a
 concrete workplace grievance, not a tired robot-uprising gag.
 
+Revision note: the entry was run locally after the first draft and the
+output was verified byte for byte against the winning line, with no
+trailing newline, so the program below ships exactly the line above.
+
 This program writes that single line, and nothing else, to entry.txt in the
 output directory given by MAKEFUN_OUTPUT_DIR (default /output).
 """
